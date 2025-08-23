@@ -6,27 +6,6 @@
                 padding:200px 0px 0px 200px;
                 font-size:40px;
             }
-
-
-
-
-
-
-
-
-@media screen and (min-width:480px){
-     body{
-                background: radial-gradient(circle,  rgb(25, 147, 147)30%,rgb(95, 30, 170));
-                background-repeat: no-repeat;              
-            }
-            header h1{
-                padding:200px 0px 0px 200px;
-                font-size:40px;
-            }
-            header p{
-                font-size: 20px;
-                padding:0px 0px 0px 200px;
-            }
             nav{
                 position:sticky;
                 top:0;
@@ -58,8 +37,30 @@
                 
                
             }
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px){
+     body{
+                background: radial-gradient(circle,  rgb(25, 147, 147)30%,rgb(95, 30, 170));
+                background-repeat: no-repeat;              
+            }
+            header h1{
+                padding:200px 0px 0px 200px;
+                font-size:40px;
+            }
+            header p{
+                font-size: 20px;
+                padding:0px 0px 0px 200px;
+            }
+            
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:650px){
              nav{
                 position:sticky;
                 top:0;
@@ -93,6 +94,5 @@
             }
            
 }
-
 
 
