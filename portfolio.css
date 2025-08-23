@@ -59,7 +59,7 @@
                
             }
 }
-@media screen and (max-width:590px){
+@media screen and (max-width:600px){
              nav{
                 position:sticky;
                 top:0;
@@ -93,5 +93,6 @@
             }
            
 }
+
 
 
