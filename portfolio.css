@@ -1,0 +1,97 @@
+     body{
+                background: radial-gradient(circle,  rgb(25, 147, 147)30%,rgb(95, 30, 170));
+                background-repeat: no-repeat;              
+            }
+     header h1{
+                padding:200px 0px 0px 200px;
+                font-size:40px;
+            }
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px){
+     body{
+                background: radial-gradient(circle,  rgb(25, 147, 147)30%,rgb(95, 30, 170));
+                background-repeat: no-repeat;              
+            }
+            header h1{
+                padding:200px 0px 0px 200px;
+                font-size:40px;
+            }
+            header p{
+                font-size: 20px;
+                padding:0px 0px 0px 200px;
+            }
+            nav{
+                position:sticky;
+                top:0;
+                height:50px;
+                display: flex;
+                justify-content: center;
+               
+                             
+            }
+          
+            nav li{
+                list-style:none;
+                display: inline;
+                     
+            }
+            nav a{
+                color:white;
+                font-size:20px;
+                text-decoration: none;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: rgb(55, 25, 102);
+                border-radius: 40px;
+                padding: 15px;
+                
+               
+            }
+            a:hover{
+                color:rgb(159, 166, 79);
+                
+               
+            }
+}
+@media screen and (max-width:590px){
+             nav{
+                position:sticky;
+                top:0;
+                border-radius: 5px;   
+                
+                 
+                   
+            }
+            nav ul{
+               
+                width:100%;
+                margin:auto;
+                text-align: center;
+                padding:10px;
+                margin-top: 0;
+             
+            }
+            nav a{
+                list-style:none;
+                display: block;
+                padding:5px;
+                margin:5px;
+                font-size: 15px;
+            
+                     
+            }   
+            a:hover{
+                color:rgb(159, 166, 79);;
+                
+               
+            }
+           
+}
+
+

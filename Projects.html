@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio - Projects</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial_scale=1.0">
+        <style>
+            body{
+                background: radial-gradient(circle,  rgb(25, 147, 147)30%,rgb(95, 30, 170));
+                background-repeat: no-repeat;
+                min-height: 100%;
+                
+            }
+            p{
+                font-size: 20px;
+            }
+            header{
+                font-size: 40px;
+                text-align: center;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <header>My Projects</header>
+        <br> <br> 
+         <section id="projects">
+            <h1>User and Admin Authentication System</h1>
+                 <p> <b>Technologies: </b><i>Python, SQL, MySQL, bcrypt</i></p>
+                 <p>•	A command-line based registration and login system for users and admins with secure password hashing using bcrypt. <br>
+                    •	Validates email and enforces strong password policies (uppercase, lowercase, digit, special character, no spaces). <br>
+                    •	Admin registration requires a secret key for restricted access and is stored in a separate table. <br>
+                    •	User and admin credentials are stored securely in a MySQL database with AUTO_INCREMENT primary keys. <br>
+                    •	Supports duplicate email handling, input validation, and password verification during login.
+                </p> <br> <br>
+            <h1>Loan Management System</h1>
+             <p> <b>Technologies: </b><i>SQL, MySQL</i></p>
+             <p>•	<b>Customer Classification & Criteria:</b> Categorizes customers based on income levels using SQL CASE statements to define eligibility criteria in the customer interest analysis table. <br>
+                •	<b>Interest Calculation & Analysis:</b> Calculates monthly and annual interest based on customer income and property area using SQL queries, with results stored in the customer interest analysis. <br>
+                •	<b>Loan Status & CIBIL Score Tracking:</b> Tracks loan application statuses and updates CIBIL scores using triggers. Automatically populates the remarks update details table with status information such as ‘High CIBIL score’ or ‘Penalty customer’. <br>
+                •	<b>Data Integrity & Relationships: </b>Ensures data consistency by applying foreign key constraints and primary keys across multiple tables, linking customer detail, region info, and country state to maintain relational integrity.
+             </p> <br> <br>
+             <h1>Number Guessing Game</h1>
+              <p> <b>Technologies: </b><i>Python</i></p>
+             <p>
+                •	<b>Random Number Generation:</b> Implements Python’s random library to generate a random number between 1 and 100, which the player must guess. <br>
+                •	<b>User Input Validation: </b> Used error handling (try-except) to ensure the user input is a valid and within the specified range (1-100), enhancing user experience and minimizing crashes. <br>
+                •	<b>Interactive feedback:</b> The game provides dynamic feedback on guesses, with conditional logic guiding the player on whether the guess is too high, too low, or correct. <br>
+                •	<b>Exit Mechanism: </b>Includes an exit option, providing the player control over whether to continue or end the game session.
+
+             </p>
+             
+        </section>
+        
+    </body>
+</html>
