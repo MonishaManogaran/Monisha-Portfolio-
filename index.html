@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial_scale=1.0">
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="#Welcome" id="a1">Welcome</a></li>
+                <li><a href="#Aboutme" id="a2">Who I am</a></li>
+                <li><a href="Projects.html" >Portfolio</a></li>
+                <li><a href="#skills">Tech Stack</a></li>
+                
+                <li><a href="mailto:monishaa2312@gmail.com">Contact</a></li>
+            </ul>
+        </nav>
+        <header id="Welcome">
+            <div id="Aboutme">
+                <h1 id="name">Hi, <br>I'm Monisha <br> Full Stack Developer</h1>
+                 <p>
+                        I am a dedicated Full Stack Developer passionate about creating efficient and scalable web applications. <br>
+                        I enjoy working across the entire technology stack—building engaging user interfaces and designing robust back-end systems.
+
+                         <br>
+                        My focus is on writing clean, maintainable code and continuously improving my craft by exploring new tools and technologies. <br>
+                        I believe in combining creativity with logic to solve problems and deliver seamless digital experiences.
+            </p>
+            </div>
+        </header> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+
+       <div id="skills">
+      
+        <h1>My Technology Stack</h1>
+        <p>
+            I work with a versatile set of technologies to create modern,
+            responsive, and efficient web applications. Here are the key tools and languages I use:</p>
+
+        <h2>Front-End</h2> 
+        <p>
+            <i>HTML5 & CSS3</i> — Building well-structured, semantic, and beautifully styled web pages using modern web standards and 
+            responsive design techniques. <br>
+
+            <i>JavaScript & jQuery</i> — Adding interactivity, animations, and dynamic features to websites to enhance user experience
+             and engagement. <br>
+
+            <i>Bootstrap </i>— Creating responsive, mobile-first layouts quickly using Bootstrap’s grid system and pre-designed UI components.
+
+        </p> <br>
+        <h2>Back-End</h2> 
+        <p>
+            <i>Python & Django</i> — Developing secure, scalable, and maintainable server-side applications with 
+            Django’s powerful framework features like ORM, authentication, and admin interface.
+
+
+        </p> <br>
+        <h2>Database</h2> 
+        <p>
+            <i>SQL & MySQL</i> — Designing and managing relational databases with efficient querying and d
+            ata integrity to support dynamic web applications.
+
+        </p> <br>
+        <h2>Tools & Workflow</h2> 
+        <p>
+            <i>Git & GitHub</i> — Version control and collaboration to maintain clean code history and streamline teamwork.
+
+            <i>RESTful APIs</i> — Integrating frontend and backend through well-designed APIs for smooth data exchange.
+
+        </p> <br>
+        <h3>Continues Learning</h3> 
+        <p>
+            Committed to staying updated with the latest technologies and best practices to build modern and efficient web applications.
+
+        </p>
+
+       </div>
+
+
+    </div>
+        
+        
+      
+
+        
+     
+       
+        <script>
+            $(document).ready(function(){
+                $('#a2').click(function(){
+                    $('#name').css('font-size', '60px')
+                     setTimeout(function(){
+                $('#name').css('font-size', '40px')
+            }, 1000)
+                })
+            })
+ 
+
+            
+            
+            
+           
+
+            
+        </script>
+        
+        
+
+    </body>
+</html>
