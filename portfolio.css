@@ -76,6 +76,19 @@
                  
                    
             }
+
+            header h1 {
+                padding: 100px 20px 0px 20px;
+                text-align: center;
+                font-size: 28px;   
+           }
+            header p {
+                padding: 0px 20px;
+                text-align: center;
+                font-size: 16px;
+            }
+     
+     
             nav ul{
                
                 width:100%;
@@ -101,6 +114,7 @@
             }
            
 }
+
 
 
 
