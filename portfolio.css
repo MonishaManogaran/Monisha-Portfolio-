@@ -1,4 +1,4 @@
-     body{
+     html, body{
                 background: radial-gradient(circle,  rgb(25, 147, 147)30%,rgb(95, 30, 170));
                 background-repeat: no-repeat;  
                 width: 100%;
@@ -96,6 +96,7 @@
             }
            
 }
+
 
 
 
